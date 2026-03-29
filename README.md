@@ -81,6 +81,24 @@ Image quality or visibility is degraded.
 
 ---
 
+## Example Images
+
+### Good Display
+![Good Display](assets/examples/good_display.jpg)
+
+### Low Stock
+![Low Stock](assets/examples/low_stock.jpg)
+
+### Empty Shelf
+![Empty Shelf](assets/examples/empty_shelf.jpg)
+
+### Misplaced Product
+![Misplaced Product](assets/examples/misplaced_product.jpg)
+
+### Poor Visibility
+![Poor Visibility](assets/examples/poor_visibility.jpg)
+
+
 ## Dataset Structure
 
 ```text

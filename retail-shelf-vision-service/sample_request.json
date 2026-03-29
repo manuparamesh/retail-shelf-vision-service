@@ -1,0 +1,3 @@
+{
+  "note": "Use multipart/form-data with an image file for POST /predict"
+}

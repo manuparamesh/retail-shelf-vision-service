@@ -1,0 +1,26 @@
+project:
+  name: retail_shelf_vision_service
+
+data:
+  train_dir: data/raw/train
+  val_dir: data/raw/val
+  test_dir: data/raw/test
+
+model:
+  name: resnet18_retail_shelf_classifier
+  num_classes: 5
+  image_size: 224
+  batch_size: 16
+  num_epochs: 5
+  learning_rate: 0.001
+
+classes:
+  - good_display
+  - low_stock
+  - empty_shelf
+  - misplaced_product
+  - poor_visibility
+
+artifacts:
+  model_path: models/shelf_classifier.pth
+  metadata_path: models/metadata.json
